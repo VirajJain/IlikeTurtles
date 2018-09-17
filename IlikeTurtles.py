@@ -1,12 +1,8 @@
-from turtle import Turtle
+from gopigo import *
+import time
 
-t=Turtle()
+fwd()
 
-t.shape("turtle")
+time.sleep(5)
 
-for x in range(50):
-    t.forward(50)
-    t.right(50)
-
-
-input("Press any key to exit")
+stop()
